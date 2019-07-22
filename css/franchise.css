@@ -1,0 +1,80 @@
+section{
+    width: 100%;
+    min-height: 10px;
+} 
+
+.bg-waves {
+    position: relative;
+    background: linear-gradient(90deg, #f7ef99, #9afac1);
+}
+
+.step-background {
+    background: linear-gradient(90deg, #f7ef99, #9afac1);
+}
+
+.bg-waves:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background: url(../img/wave.png);
+}
+
+.parallax-container {
+    height: 250px;
+}
+#sliderid{
+    padding: 0 !important;
+}
+
+.row .col.s12 { 
+    padding: 30px 65px;
+}
+
+section p {
+    font-family: raleway;
+    font-size: 19px;
+    color: rgb(163, 142, 85);
+}
+
+.brown-text {
+    font-family: milkshake;
+    font-size: 60px;
+    padding: 30px;
+}
+
+.application-text {
+    font-family: montserrat;
+    font-size:  45px;
+    color: #a1887f;
+}
+
+.form-text {
+    font-family: raleway;
+}
+
+.table-of-contents a.active {
+    font-family: monstserrat;
+    color: #a1887f;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 14px;
+    border-left: 5px solid  #9afac1;
+}
+
+img {
+    border: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.side-nav{
+    background: linear-gradient(90deg, #f7ef99, #9afac1);
+  }
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: absolute;
+    opacity: 0;
+    height: 40px !important;
+    width: 40px !important;
+}

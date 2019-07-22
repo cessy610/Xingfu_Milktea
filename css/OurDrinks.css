@@ -1,0 +1,51 @@
+@font-face{
+  font-family: Raleway;
+  src: url('/fonts/raleway/Raleway-Regular.ttf');
+
+}
+
+body{
+  background: url(../img/bg.jpg);
+}
+
+.side-nav{
+  background: linear-gradient(90deg,#f7ef99,#9afac1)
+}
+
+.modal-content{
+  background: linear-gradient(90deg,#f7ef99,#9afac1)
+}
+
+body,h5{
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.tabs .indicator{
+  background-color: #84e671;
+  height: 5px;
+}
+
+.tab{
+  background-color: #1f831c;
+}
+
+.tabs .tab a{
+  color:white;
+}
+
+.tabs .tab a:hover{
+  color:black;
+  background-color: rgba(225, 225, 0, 0.5);
+}
+
+.tabs .tab a.active {
+  color: white;
+  
+}
+  .card {
+    border-radius: 12px !important;
+  }
+
+
